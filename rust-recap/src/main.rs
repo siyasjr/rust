@@ -3,8 +3,10 @@ fn main() {
 
 // print_name();
 
- is_even();
+// is_even();
 
+sum();
+    
 
  
 
@@ -37,4 +39,18 @@ fn is_even(){
     else {
         println!("{} is odd", num)
     }
+}
+
+
+fn sum(){
+    let mut sum: i32 = 0;
+
+    for i in 1..=10 {
+        
+        sum += i;
+
+    }
+
+    println!("{}", sum);
+
 }
