@@ -1,7 +1,10 @@
 
 fn main() {
 
- print_name();
+// print_name();
+
+ is_even();
+
 
  
 
@@ -23,4 +26,15 @@ fn print_name() {
     age += 1 ;
 
     println!("Your age after this year is {}", age);
+}
+
+
+fn is_even(){
+    let num: i32 = 5165;
+    if num % 2 == 0 {
+        println!("{} is even", num);
+    }
+    else {
+        println!("{} is odd", num)
+    }
 }
