@@ -5,7 +5,10 @@ fn main() {
 
 // is_even();
 
-sum();
+// sum();
+
+two_seconds();
+
     
 
  
@@ -54,3 +57,17 @@ fn sum(){
     println!("{}", sum);
 
 }
+
+
+se std::{thread, time};
+fn two_seconds() {
+
+    let interval = time::Duration::from_secs(2);
+
+    loop {
+        println!("Hi there every 2s");
+
+        thread::sleep(interval);
+    }
+}
+
