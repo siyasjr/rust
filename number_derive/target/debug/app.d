@@ -1,0 +1,1 @@
+/home/siy/rust/number_derive/target/debug/app: /home/siy/rust/number_derive/app/src/main.rs /home/siy/rust/number_derive/serialize_macro/src/lib.rs /home/siy/rust/number_derive/serialize_macro_traits/src/lib.rs
