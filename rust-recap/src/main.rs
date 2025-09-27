@@ -7,7 +7,9 @@ fn main() {
 
 // sum();
 
-two_seconds();
+// two_seconds();
+
+match_day();
 
     
 
@@ -68,6 +70,25 @@ fn two_seconds() {
         println!("Hi there every 2s");
 
         thread::sleep(interval);
+    }
+}
+
+fn match_day() {
+    let day = 10;
+
+    match day {
+
+        1 => println!("Monday"),
+        2 => println!("Tuesday"),
+        3 => println!("Wednesday"),
+        4 => println!("Thursday"),
+        5 => println!("Friday"),
+        6 => println!("Saturday"),
+        7 => println!("Sunday"),
+        _ => println!("Invalid day"),
+        
+    
+        
     }
 }
 
