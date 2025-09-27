@@ -9,8 +9,9 @@ fn main() {
 
 // two_seconds();
 
-match_day();
+// match_day();
 
+while_loop();
     
 
  
@@ -92,3 +93,17 @@ fn match_day() {
     }
 }
 
+
+fn while_loop(){
+
+    let mut count = 5;
+
+    while count > 0 {
+
+        println!("{}", count);
+        count -= 1;
+        
+    }
+
+    println!("Liftoff");
+}
