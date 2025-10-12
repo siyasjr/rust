@@ -62,7 +62,7 @@ fn sum(){
 }
 
 
-se std::{thread, time};
+use std::{thread, time};
 fn two_seconds() {
 
     let interval = time::Duration::from_secs(2);
