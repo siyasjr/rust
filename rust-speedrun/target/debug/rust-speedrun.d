@@ -1,0 +1,1 @@
+/home/siy/rust/rust-speedrun/target/debug/rust-speedrun: /home/siy/rust/rust-speedrun/src/greetings/english.rs /home/siy/rust/rust-speedrun/src/greetings/mod.rs /home/siy/rust/rust-speedrun/src/main.rs
