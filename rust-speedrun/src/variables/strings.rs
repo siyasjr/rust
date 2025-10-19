@@ -1,4 +1,4 @@
 fn main(){
-    let string = String::from("🚀");
+    let string = string::from("🚀");
     println!("{}", string);
 }
