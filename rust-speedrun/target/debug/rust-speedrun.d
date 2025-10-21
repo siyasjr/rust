@@ -1,1 +1,1 @@
-/home/siy/rust/rust-speedrun/target/debug/rust-speedrun: /home/siy/rust/rust-speedrun/src/main.rs
+/home/siy/rust/rust-speedrun/target/debug/rust-speedrun: /home/siy/rust/rust-speedrun/src/functions/conditionals.rs /home/siy/rust/rust-speedrun/src/functions/for_loop.rs /home/siy/rust/rust-speedrun/src/functions/greet.rs /home/siy/rust/rust-speedrun/src/functions/infi_loop.rs /home/siy/rust/rust-speedrun/src/functions/loop_return.rs /home/siy/rust/rust-speedrun/src/functions/mod.rs /home/siy/rust/rust-speedrun/src/main.rs
